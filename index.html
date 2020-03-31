@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.red-blue.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Yellowtail&display=swap" rel="stylesheet"> 
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+   </head>
+<link rel="stylesheet" href="style.css">
+<body>
+ <h1> Pranay Kumar Piyush</h1> 
+ 
+ 
+ <img id="dp" class="bigger"  src="dp.jpg" alt="displayPic" height="200" width="200">
+ <br />
+ <button 
+ class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"  
+ align ="center" onclick="document.querySelector('#dp').classList.add('bigger');"> Enlarge </button>
+ <br /> <br/>
+ <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="document.querySelector('#dp').classList.remove('bigger');"> Shrink
+</button>
+<br /> <br />
+
+  
+  <h4>Contact Details</h4>
+<!-- Accent-colored raised button with ripple -->
+<button 
+class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onclick="expand('intro')">
+<i class="material-icons" 
+></i>
+<span class="material-icons">
+   arrow_drop_down
+   </span>
+   
+ </button>
+ 
+ <button  class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored"
+ onclick="document.querySelector('#intro').classList.remove('reveal')">
+ <span class="material-icons">
+   arrow_drop_up
+   </span>
+</button>
+  
+ 
+ <br />
+<br />
+ <div class = "content" id="intro">
+    
+    <p> Contact: 7229950291 </p>
+    <p> Whatsapp: 7301807668 </p>
+    <p> E-mail: <a href=mailto:"pkp5214@gmail.com> pkp5214@gmail.com </mailto> </p>
+    <p>  <a href="https://github.com/pranaykrpiyush" target="_blank"><img class="icons" src="index.png"></a> </p>
+    <p> <a href="https://linkedin.com/pranaykrpiyush" target="_blank"> <img class="icons" src="globe.png"> </a></p>
+
+ </div>
+
+<h2> Education</h2>
+<button  class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" 
+id="expands" onclick="expand('Education')">
+   <span class="material-icons">
+      arrow_drop_down
+      </span>
+</button>
+<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onclick="document.querySelector('#Education').classList.remove('reveal')">
+   <span class="material-icons">
+      arrow_drop_up
+      </span>
+</button>
+   <br />
+<br />
+<br />
+<div class="content" id="Education">
+  <ul>
+    
+   <br/>
+   
+   
+   <li><h3> Bachelor of Technology in Computer Science and Engineering </h3> 
+  </li><p class="subtitle">from CUSAT</p>
+ <i>
+ <li><h3>Class 12 from DAV Public School, Ara </h3>
+ </li> </i>
+  </div>
+  <a href="page2.html">
+  <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" class="button"> NEXT PAGE</button>
+  </a>  
+<script src="script.js">
+   
+   
+</script>
+
+</body>
+
+</html>

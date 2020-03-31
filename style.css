@@ -1,0 +1,63 @@
+body{
+    background-color: #e0e0e0;
+    font-family: sans-serif;
+    text-align: center;
+}
+img {
+    margin: 24px;
+    border-radius: 74%;
+     
+}
+h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: royalblue;
+
+    font-family: 'Yellowtail', cursive;
+
+
+}
+
+#Education{
+    text-align: left;  
+    border: 1px solid slateblue;
+    padding: 2%;
+    color: green;
+
+    font-family: 'Bree Serif', serif;
+
+}
+#intro{
+
+    font-family: 'Averia Serif Libre', cursive;
+
+}
+
+#dp.bigger{
+    height:360px;
+
+}
+.content{
+
+   
+
+    display: none;
+    color: red;
+}
+.content.reveal{
+    display: block;
+}
+
+.subtitle{
+    margin-top: 15px;
+    color: pink;
+}
+.icons{
+    height: 45px;
+    display : inline-block;
+}
+.buttton{
+    color: slateblue;
+    margin-top;: 100px
+
+}
